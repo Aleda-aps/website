@@ -1,0 +1,78 @@
+.nothing{
+    margin-left: 2px;
+}
+*{
+    --background-color: #1a191f;
+    --accent-color: #7b3bb2; /*rgb(123, 59, 178)*/
+    --secondary-color: #e5e0d9; /*rgb(229, 224, 217) - used in home.vue for the dotted background*/
+    --secondary-500: #a277ca;
+    --green: #2d9739;
+    --green-500: #60c469; /*96, 196, 105*/
+    --text-color: #efe8f5;
+    --complementary: #a46033;/*of purple and green 164, 96, 51*/
+    --form-color: #221d31;
+    padding: 0;
+    margin: 0;
+}
+/* 
+[ css vars ]
+to use: var(--name); 
+*/
+
+@font-face {
+    font-family: "Manrope-bold-xxl";
+    src: url("../assets/fonts/Manrope/Manrope-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Manrope-bold";
+    font-weight: 700;
+    src: url("../assets/fonts/Manrope/Manrope-Bold.ttf") format("truetype");
+  }
+@font-face {
+    font-family: "Manrope";
+    font-weight: 400;
+    src: url("../assets/fonts/Manrope/Manrope-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Manrope-light";
+    src: url("../assets/fonts/Manrope/Manrope-Light.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Manrope-medium";
+    src: url("../assets/fonts/Manrope/Manrope-Medium.ttf") format("truetype");
+}
+/* other fonts */
+
+@font-face{
+    font-family: "TechnaSans";
+    src: url("../assets/fonts/TechnaSans-Regular.otf") format("opentype");
+}
+@font-face{
+    font-family: "Concert-one";
+    src: url("../assets/fonts/ConcertOne-Regular.ttf") format("truetype");
+}
+@font-face{
+    font-family: "Alfaslabone";
+    src: url("../assets/fonts/AlfaSlabOne-Regular.ttf") format("truetype");
+}
+@font-face{
+    font-family: "Caprasimo";
+    src: url("../assets/fonts/Caprasimo-Regular.ttf") format("truetype");
+}
+@font-face{
+    font-family: "MoiraiOne";
+    src: url("../assets/fonts/MoiraiOne-Regular.ttf") format("truetype");
+}
+@font-face{
+    font-family: "inclusive";
+    src: url("../assets/fonts/inclusivesans-regular.otf") format("opentype");
+}
+
+
+
+/* triggered when element comes in viewport */
+.fade-in {
+    transition: 0.3s all ease-out;
+    transform: scale(0.8);
+  }
+  

@@ -1,0 +1,29 @@
+{
+  "name": "Aleda",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@mdi/font": "7.0.96",
+    "epic-spinners": "^2.0.0",
+    "roboto-fontface": "*",
+    "vue": "^3.3.4",
+    "vue-fullpage.js": "^0.2.15",
+    "vue-in-viewport-mixin": "^3.1.0",
+    "vue-kinesis": "^2.0.5",
+    "vue-observe-visibility": "^2.0.0-alpha.1",
+    "vue-scroll-snap": "^0.1.11",
+    "vuetify": "^3.0.0",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "sass": "^1.64.2",
+    "vite": "^4.2.0",
+    "vite-plugin-vuetify": "^1.0.0"
+  }
+}

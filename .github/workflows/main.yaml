@@ -12,3 +12,4 @@ jobs:
         username: 'Aleda-aps'
         reponame: 'website'
         token: ${{ secrets.GITHUB_TOKEN }}
+        cname: 'associazionealeda.com'

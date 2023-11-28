@@ -10,9 +10,16 @@
                     <v-card-text>
                         <v-row>
                         <v-col lg="6" sm="12" xs="12" md="12" cols="12" >
-                        <!-- <v-form action="https://formsubmit.co/acc37212ee13913c195684502eb2adec" method="POST"> -->
-                        <v-form ref="form" @submit.prevent="submit">
+                        <!-- "honeypot" -->
+                        <form action="/send_message" method="post" style="display:none">
+                            <input type="text" id="name" name="name" placeholder="Name" required >
+                            <input type="email" id="email" name="email" placeholder="Email" required >
+                            <textarea id="message" name="message" placeholder="Your Message:" required></textarea>
+                            <input type="submit" value="Send Message">
+                        </form>
 
+                        <v-form ref="form" @submit.prevent="submit">
+                            
                             <v-text-field
                             clearable
                                 v-model="params.name"

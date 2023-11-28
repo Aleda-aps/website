@@ -1,4 +1,4 @@
-# 🪷 Aleda A.p.s - Website
+# 🌺 Aleda A.p.s - Website
 
 ## to run the project on your local network:
 ```

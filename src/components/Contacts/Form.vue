@@ -91,7 +91,7 @@
                                 <v-icon class="ml-6 mr-6 ma-2">mdi-facebook</v-icon>
 
                                 <span><b>Facebook: </b>
-                                    <a href="https://www.facebook.com/associazione_aleda/" target="_blank"
+                                    <a href="https://www.facebook.com/people/Aleda-Aps/61554212074571/" target="_blank"
                                     >associazione_aleda</a>
                                 </span>
                             </v-col>

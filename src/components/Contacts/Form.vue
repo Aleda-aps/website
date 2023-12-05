@@ -92,7 +92,7 @@
 
                                 <span><b>Facebook: </b>
                                     <a href="https://www.facebook.com/people/Aleda-Aps/61554212074571/" target="_blank"
-                                    >associazione_aleda</a>
+                                    >Aleda-Aps</a>
                                 </span>
                             </v-col>
                         </v-row>
@@ -140,8 +140,7 @@ a{
 span b{
     font-family: "manrope-bold"
 }
-span{
-}
+
 /*il testo e poi l'onda sopra devi aggiunstare lo z index che nva*/
 @media screen and (max-width:600px) and (min-width:400px) {
 

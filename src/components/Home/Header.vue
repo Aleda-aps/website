@@ -15,7 +15,7 @@
             <v-icon size="30" >mdi-instagram</v-icon> -->
 
             <!-- image taken from: https://www.flaticon.com/free-icon/facebook_254390?term=facebook&page=1&position=31&origin=search&related_id=254390 -->
-            <a href="https://www.facebook.com/associazione_aleda/" target="_blank" title="Seguici su facebook!">
+            <a href="https://www.facebook.com/people/Aleda-Aps/61554212074571/" target="_blank" title="Seguici su facebook!">
                 <v-img
                 
                 src="../../assets/socials/facebook.png"

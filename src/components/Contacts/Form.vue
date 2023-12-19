@@ -45,10 +45,36 @@
                                 label="Messaggio"
                                 name="message"
                             ></v-textarea>
+                            <v-checkbox v-model="checkbox">
+                                <template v-slot:label>
+                                  <div>
+                                    Accetto i 
+                                    <v-tooltip location="bottom">
+                                      <template v-slot:activator="{ props }">
+                                        <a
+                                          target="_blank"
+                                          href="https://sites.google.com/view/aleda-privacy-policy/home"
+                                          v-bind="props"
+                                          @click.stop
+                                        >
+                                        termini e condizioni
+                                        </a>
+                                      </template>
+                                    Premendo questa casella accetto che la mia email, il mio nome <br>e il contenuto del "messaggio" vengano inviati ad Aleda A.p.s 
+                                      
+                                    </v-tooltip>
+                                  </div>
+                                </template>
+                              </v-checkbox>
+                            
                             <v-btn
                                 type="submit"
                                 color="primary"
+                                :disabled="!checkbox"
                             >Invia</v-btn>
+
+                            
+                            
                         </v-form>
                     </v-col>
                     <v-col class="info" lg="6" cols="12" sm="12" xs="12" md="12">
@@ -177,6 +203,7 @@ export default {
                 email: '',
                 message: '' 
             },
+            checkbox: false,
             snackbar: false,
             text: '',
             timeout: 6000,

@@ -26,12 +26,6 @@
                 <Card  />
             </v-col>
 
-        <!-- 
-            <Card />
-            <Card />
-            <Card /> 
-                -->
-            
 
         </v-row>
     </v-container>

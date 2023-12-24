@@ -55,7 +55,6 @@
 }
 .v-container{
     color: var(--text-color);
-    margin-top: -10rem;
 }   
 .list-id{
     width: 50%;

@@ -98,6 +98,16 @@
                                     >info@associazionealeda.com</a>
                                 </span>
                             </v-col>
+                            <v-col cols="12" sm="12" md="12" lg="12" xl="12">
+                                <!-- <v-icon class="ma-6">mdi-email-outline</v-icon> -->
+                                <v-icon class="ml-6 mr-6 ma-2">mdi-email-lock-outline</v-icon>
+
+                                <span><b>Pec: </b>
+                                    <a href="mailto:
+                                    associazionealeda@pec.it" target="_blank"
+                                    >associazionealeda@pec.it</a>
+                                </span>
+                            </v-col>
                             <!-- mdiCardAccountDetailsOutline -->
                             <v-col cols="12" sm="12" md="12" lg="12" xl="12">
                                 <v-icon class="ml-6 mr-6 ma-2">mdi-card-account-details</v-icon>

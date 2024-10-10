@@ -11,7 +11,7 @@ import Form from '../components/Contacts/Form.vue'
 export default {
     components: {
         Form
-    } 
+    }  
 }
 </script>
 <style lang="css" scoped src="../style/vars.css"></style>

@@ -7,7 +7,7 @@
                 <!-- info col-md-10 col-sm-10 xs-no-margin xs-no-padding xs-width-100 xs-clear-both -->
                 <h1>Cosa facciamo?</h1>
                 <p>
-                    Aleda è un'associazione dedita alla creazione di eventi formativi e ricreativi a tema crime.
+                    Aleda è un'associazione dedita alla creazione di eventi formativi e ricreativi a tema crime e di attività rieducative all'interno di strutture penitenziarie.
                 </p>
             </v-col>
         </v-row>

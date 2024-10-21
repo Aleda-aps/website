@@ -7,7 +7,7 @@
                 <!-- info col-md-10 col-sm-10 xs-no-margin xs-no-padding xs-width-100 xs-clear-both -->
                 <h1>Cosa facciamo?</h1>
                 <p>
-                    Aleda è un'associazione dedita alla creazione di uno spazio che stimoli la collettività e che migliori il rapporto genitoriale in modo ludico ed educativo.
+                    Aleda è un'associazione dedita alla creazione di eventi formativi e ricreativi a tema crime.
                 </p>
             </v-col>
         </v-row>
@@ -16,7 +16,7 @@
             <v-col class="list-info" cols="12" sm="12" xs="12" md="6" >
                 <h1>Dove lo facciamo?</h1>
                 <p>
-                    Aleda svolge la propria attività all’interno delle carceri, delle case Mandamentali e dei comuni.
+                    Aleda svolge la propria attività nei ditorni Torinesi, in vari spazi culturali.
                 </p>
             </v-col>
         </v-row>
@@ -25,7 +25,7 @@
             <v-col class="list-info" cols="12" sm="12" xs="12" md="6" >
                 <h1>Come lo facciamo?</h1>
                 <p>
-                    Attraverso attività Sociali, Olistiche e ludiche l'associazione mira a migliorare lo stato di vita di chi vive lontano dalla realtà esterna.
+                    Tramite la partecipazione di professionisti, cerchiamo di creare uno spazio dove possano condividere la loro esperienza e formare il prossimo, o fare networking con altri esperti.
                 </p>
             </v-col>
         </v-row>

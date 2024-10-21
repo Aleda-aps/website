@@ -83,8 +83,8 @@
                                 <v-icon class="ml-6 mr-6 ma-2">mdi-phone</v-icon>
                                 <span><b>Telefono: </b>
                                     <a href="tel:
-                                    331 807 0974" target="_blank"
-                                    >331 807 0974</a>
+                                    327 400 3326" target="_blank"
+                                    >327 400 3326</a>
                                 <!-- (lun-ven 14:00-18:00) -->
                                 </span>
                             </v-col>

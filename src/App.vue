@@ -31,6 +31,10 @@
       <div class="viewport" v-observe-visibility="contactsVisibility"></div>
       
       <Contacts class="item" ref="Contacts"   id="Contacts" />
+
+      <div class="viewport" v-observe-visibility="testVisibility"></div>
+      <test class="item" ref="test" id="test" />
+      
     </vue-scroll-snap>
 
   </v-app>
@@ -40,6 +44,7 @@
   import Home from '@/pages/Home.vue'
   import Info from '@/pages/Info.vue'
   import Contacts from '@/pages/Contacts.vue'
+  import test from '@/components/test.vue'
 
 
   import VueScrollSnap from "vue-scroll-snap"
@@ -51,6 +56,7 @@
       Home,
       Info,
       Contacts,
+      test,
       VueScrollSnap,
       SemipolarSpinner
     },
@@ -60,10 +66,12 @@
           { id: 'Home' },
           { id: 'Info' },
           { id: 'Contacts' },
+          { id: 'test'}
         ],
         homeVisible: false,
         infoVisible: false,
         contactsVisible: false,
+        testVisible: false,
         isloaded: false,
       }
     },
@@ -94,6 +102,10 @@
       this.contactsVisible = isVisible
       // console.log(entry)
       },
+      testVisibility (isVisible, entry) {
+      this.testVisible = isVisible
+      // console.log(entry)
+      }
       
     },
     mounted() {
